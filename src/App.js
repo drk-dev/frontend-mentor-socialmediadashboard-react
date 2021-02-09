@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react"
+import Header from "./components/header/Header.js"
+import MainStat from "./components/mainstat/MainStat.js"
+import Overview from "./components/overview/Overview.js"
+import sumStatisticData from "./sumStatisticData.json"
+import todayStatisticData from "./todayStatisticData.json"
+
+
 
 function App() {
+  const statisticData = sumStatisticData.sumStatisticData;
+  const todayData = todayStatisticData.todayStatisticData;
+
+  const [status, setStatus] = useState(true)
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className={`main-container ${status ? "" : "body-light"}`}>
+        <div className={`top-bg ${status ? "" : "light"}`}></div>
+        <div className="app-container">
+          <Header
+            statisticData={statisticData}
+            status={status}
+            setStatus={setStatus}
+          />
+          <MainStat
+            statisticData={statisticData}
+            status={status}
+          />
+          <Overview
+            todayData={todayData}
+            status={status}
+          />
+        </div>
+
+      </div>
     </div>
   );
 }

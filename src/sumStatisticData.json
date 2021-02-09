@@ -1,0 +1,40 @@
+{
+    "sumStatisticData": [
+        {
+            "id": "1",
+            "userName": "@nathanf",
+            "SumStatistic": "1987",
+            "dataType": "Followers",
+            "dailyStatistic": "12",
+            "platform": "facebook",
+            "statisticStatus": "up"
+        },
+        {
+            "id": "2",
+            "userName": "@nathanf",
+            "SumStatistic": "1044",
+            "dataType": "Followers",
+            "dailyStatistic": "99",
+            "platform": "twitter",
+            "statisticStatus": "up"
+        },
+        {
+            "id": "3",
+            "userName": "@realnathanf",
+            "SumStatistic": "11k",
+            "dataType": "Followers",
+            "dailyStatistic": "1099",
+            "platform": "instagram",
+            "statisticStatus": "up"
+        },
+        {
+            "id": "4",
+            "userName": "Nathan F.",
+            "SumStatistic": "8239",
+            "dataType": "Subscribers",
+            "dailyStatistic": "144",
+            "platform": "youtube",
+            "statisticStatus": "down"
+        }
+    ]
+}

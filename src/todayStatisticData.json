@@ -1,0 +1,68 @@
+{
+    "todayStatisticData": [
+        {
+            "id": "1",
+            "SumStatistic": "87",
+            "dataType": "Page Viewes",
+            "growthStatistic": "3%",
+            "platform": "facebook",
+            "statisticStatus": "up"
+        },
+        {
+            "id": "2",
+            "SumStatistic": "52",
+            "dataType": "Likes",
+            "growthStatistic": "2%",
+            "platform": "facebook",
+            "statisticStatus": "down"
+        },
+        {
+            "id": "3",
+            "SumStatistic": "5462",
+            "dataType": "Likes",
+            "growthStatistic": "2257%",
+            "platform": "instagram",
+            "statisticStatus": "up"
+        },
+        {
+            "id": "4",
+            "SumStatistic": "52k",
+            "dataType": "Profile Views",
+            "growthStatistic": "1375%",
+            "platform": "instagram",
+            "statisticStatus": "up"
+        },
+        {
+            "id": "5",
+            "SumStatistic": "117",
+            "dataType": "Retweets",
+            "growthStatistic": "303%",
+            "platform": "twitter",
+            "statisticStatus": "up"
+        },
+        {
+            "id": "6",
+            "SumStatistic": "507",
+            "dataType": "Likes",
+            "growthStatistic": "553%",
+            "platform": "twitter",
+            "statisticStatus": "up"
+        },
+        {
+            "id": "7",
+            "SumStatistic": "107",
+            "dataType": "Likes",
+            "growthStatistic": "19%",
+            "platform": "youtube",
+            "statisticStatus": "down"
+        },
+        {
+            "id": "8",
+            "SumStatistic": "1407",
+            "dataType": "Total Views",
+            "growthStatistic": "12%",
+            "platform": "youtube",
+            "statisticStatus": "down"
+        }
+    ]
+}

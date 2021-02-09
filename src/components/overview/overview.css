@@ -1,0 +1,117 @@
+.overview h2 {
+    font-size: 2rem;
+    font-family: "Inter";
+    color: #fff;
+}
+.overview-cards {
+    width: auto;
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 60px;
+}
+
+.content-down {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-down h3 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-content p {
+    font-size: 1rem;
+    font-family: "Inter";
+    margin: 0;
+}
+
+.overview-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(228, 34%, 66%);
+    background: hsl(228, 28%, 20%);
+    width: 18.75rem;
+    height: 9.625rem;
+    border-radius: 0.313rem;
+    cursor: pointer;
+    padding: ;
+}
+
+.overview-card:hover {
+    background-color: hsl(229, 25%, 26%);
+}
+
+.facebook .logo {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: url(../images/icon-facebook.svg);
+    border-radius: 3px;
+    margin-right: 0.365rem;
+}
+
+.instagram .logo {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: url(../images/icon-instagram.svg);
+    border-radius: 3px;
+    margin-right: 0.365rem;
+}
+
+.twitter .logo {
+    width: 20px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: url(../images/icon-twitter.svg);
+    border-radius: 3px;
+    margin-right: 0.365rem;
+}
+
+.youtube .logo {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: url(../images/icon-youtube.svg);
+    border-radius: 3px;
+    margin-right: 0.365rem;
+}
+
+.today-new {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*   margin-top: 1.875rem; */
+}
+
+.today.up {
+    width: 8px;
+    height: 4px;
+}
